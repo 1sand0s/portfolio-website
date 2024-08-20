@@ -40,8 +40,8 @@ function ExperienceItem (props) {
     }
 
     return (
-        <Stack id={id} sx={{padding: '20px', backgroundColor: '#5E5E5E80', color: '#D5D5D5', fontWeight: 'normal', borderRadius: '10px'}}>
-            <Stack direction='row' sx={{marginBottom: '8px', fontSize: '2.5em'}}>
+        <Stack id={id} sx={{padding: '10px', backgroundColor: '#5E5E5E80', color: '#D5D5D5', fontWeight: 'normal', borderRadius: '6px'}}>
+            <Stack direction='row' sx={{marginBottom: '8px', fontSize: '1.3em'}}>
                 <label style={{marginRight: '10px'}}><ArticleOutlinedIcon/></label>
                 <label>{authors_processed()}. <span style={{color:'#FF968D'}}>{title}</span>. <span style={{fontWeight: 'bold'}}> In <i style={{fontWeight:'bold'}}>{journal}</i> {year}</span>.</label>
             </Stack>

@@ -56,15 +56,15 @@ function App() {
 
   return (
     <Box id='root' sx={{width:'100vw', height:'auto', backgroundColor: 'black'}}>
-      <AppBar position="fixed" sx={{backgroundColor: 'black', paddingTop: '120px'}}> 
-          <Container maxWidth="xl" sx={{margin: 0, marginLeft: '120px'}}>
+      <AppBar position="fixed" sx={{backgroundColor: 'black', paddingTop: '50px'}}> 
+          <Container maxWidth="xl" sx={{margin: 0, marginLeft: '50px'}}>
             <Toolbar disableGutters>
               <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                 {pages.map((page) => (
                   <Button
                     key={page}
                     onClick={()=> handlePageNav(page)}
-                    sx={{ my: 2, color: '#D5D5D5', display: 'block', fontSize: '2.5em', marginRight: '70px', textTransform: 'none', fontWeight: 'lighter' }}
+                    sx={{ my: 2, color: '#D5D5D5', display: 'block', fontSize: '1.2em', marginRight: '30px', textTransform: 'none', fontWeight: 'lighter' }}
                   >
                     {page}
                   </Button>
@@ -74,7 +74,7 @@ function App() {
           </Container>
         </AppBar>
       <Box id='main-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
-        <Stack direction={'row'} sx={{paddingTop: '500px', marginLeft: '250px'}}>
+        <Stack direction={'row'} sx={{paddingTop: '200px', marginLeft: '180px'}}>
           <Box
             component="img"
             sx={{
@@ -83,32 +83,32 @@ function App() {
             }}
             src={selfie}
           />
-          <Stack sx={{color: '#D5D5D5', justifyContent: 'center', marginLeft: '300px'}}>
-            <label style={{fontSize: '4em'}}>Hey there!</label>
-            <label style={{fontSize: '9em'}}>I'm <span style={{color:'#FF968D'}}>Aditya Thimmaiah</span></label>
-            <label  style={{fontSize: '4em'}}><br/></label>
-            <label  style={{fontSize: '3em', fontWeight: 'lighter'}}>I am an ECE PhD candidate at UT Austin advised by the <br/>one and only Dr Milos Gligoric<br/><br/>
+          <Stack sx={{color: '#D5D5D5', justifyContent: 'center', marginLeft: '150px'}}>
+            <label style={{fontSize: '2em'}}>Hey there!</label>
+            <label style={{fontSize: '4em'}}>I'm <span style={{color:'#FF968D'}}>Aditya Thimmaiah</span></label>
+            <label  style={{fontSize: '2em'}}><br/></label>
+            <label  style={{fontSize: '1.5em', fontWeight: 'lighter'}}>I am an ECE PhD candidate at UT Austin advised by the <br/>one and only Dr Milos Gligoric<br/><br/>
             My research interests include databases, programming languages,<br/> compiler testing and systems</label>
             <Box sx={{paddingTop: '80px'}}>
-              <Button variant='contained' sx={{backgroundColor:'#FF6961', textTransform: 'none', fontSize: '2.5em', paddingLeft: '100px', paddingRight: '100px', paddingTop: '30px', paddingBottom: '30px'}}>Contact Me</Button>
+              <Button variant='contained' sx={{backgroundColor:'#FF6961', textTransform: 'none', fontSize: '1em', paddingLeft: '60px', paddingRight: '60px', paddingTop: '20px', paddingBottom: '20px'}}>Contact Me</Button>
             </Box>
           </Stack>
         </Stack>
       </Box>
       <Box ref={experience_ref} id='experience-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
-        <Stack direction={'row'} sx={{color: '#D5D5D5', paddingTop: '300px', marginLeft: '250px', marginRight: '250px', fontWeight: 'lighter', justifyContent: 'space-between'}}>
+        <Stack direction={'row'} sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'lighter', justifyContent: 'space-between'}}>
             <Stack>
-              <label style={{fontSize: '4em', marginBottom: '50px'}}>Industry Experience</label>
-              <Experiences experience_items={industry_experience_items} width='30vw'/>
+              <label style={{fontSize: '2em', marginBottom: '25px'}}>Industry Experience</label>
+              <Experiences experience_items={industry_experience_items} width='35vw'/>
             </Stack>
             <Stack>
-              <label style={{fontSize: '4em', marginBottom: '50px'}}>Volunteer Experience</label>
-              <Experiences experience_items={volunteer_experience_items} width='30vw'/>
+              <label style={{fontSize: '2em', marginBottom: '25px'}}>Volunteer Experience</label>
+              <Experiences experience_items={volunteer_experience_items} width='40vw'/>
             </Stack>
         </Stack>
       </Box>
       <Box ref={publication_ref} id='publications-page' sx={{width:'100vw', height:'auto', backgroundColor: 'black'}}>
-        <Stack sx={{color: '#D5D5D5', paddingTop: '300px', marginLeft: '250px', marginRight: '250px', fontWeight: 'lighter'}}>
+        <Stack sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'lighter'}}>
           <Experiences experience_items={publication_items}  width='auto'/>
         </Stack>
       </Box>
