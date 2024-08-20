@@ -1,17 +1,20 @@
 import { useState } from 'react';
 import './App.css';
 import selfie from './selfie.png'
-import {AppBar, Container, Toolbar, Box, Button, Stack} from "@mui/material"
+import {AppBar, Container, Toolbar, Box, Button, Stack, IconButton, Tooltip} from "@mui/material"
 import ExperienceItem from './ExperienceItem';
 import PublicationItem from './PublicationItem';
 import Experiences from './Experiences';
-import {Apple, Google} from '@mui/icons-material'
+import {Apple, Google, YouTube, GitHub, School} from '@mui/icons-material'
 import { useRef, useEffect} from 'react';
 
 function App() {
   const experience_ref = useRef(null)
   const publication_ref = useRef(null)
-  const pages = ['Experience', 'Publications', 'Workshop', 'Calisthenics', 'Life', 'Contact']
+  const workshop_ref = useRef(null)
+  const calisthenics_ref = useRef(null)
+  const life_ref = useRef(null)
+  const pages = ['Experience', 'Publications', 'Workshop', 'Calisthenics', 'Life']
 
   const industry_experience_items = [
     <ExperienceItem id='apple-2024' icon={<Apple sx={{color: '#D5D5D5'}}/>} company='Apple' title='PhD Intern' dates='May 13 - August 16 2024' location='Cupertino, CA, USA'/>,
@@ -52,24 +55,58 @@ function App() {
         behavior: 'smooth'
       })
     }
+    else if(page === 'Workshop'){
+      workshop_ref.current?.scrollIntoView({
+        behavior: 'smooth'
+      })
+    }
+    else if(page === 'Calisthenics'){
+      calisthenics_ref.current?.scrollIntoView({
+        behavior: 'smooth'
+      })
+    }
+    else if(page === 'Life'){
+      life_ref.current?.scrollIntoView({
+        behavior: 'smooth'
+      })
+    }
   }
 
   return (
     <Box id='root' sx={{width:'100vw', height:'auto', backgroundColor: 'black'}}>
       <AppBar position="fixed" sx={{backgroundColor: 'black', paddingTop: '50px'}}> 
-          <Container maxWidth="xl" sx={{margin: 0, marginLeft: '50px'}}>
+          <Container maxWidth="xl" sx={{margin: 0}}>
             <Toolbar disableGutters>
-              <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                {pages.map((page) => (
-                  <Button
-                    key={page}
-                    onClick={()=> handlePageNav(page)}
-                    sx={{ my: 2, color: '#D5D5D5', display: 'block', fontSize: '1.2em', marginRight: '30px', textTransform: 'none', fontWeight: 'lighter' }}
-                  >
-                    {page}
-                  </Button>
-                ))}
-              </Box>
+              <Stack direction='row' width='100vw' sx={{justifyContent: 'space-between',margin: 0, marginLeft: '50px'}}>
+                <Stack direction='row' width='50vw'>
+                  {pages.map((page) => (
+                    <Button
+                      key={page}
+                      onClick={()=> handlePageNav(page)}
+                      sx={{ my: 2, color: '#D5D5D5', display: 'block', fontSize: '1.2em', marginRight: '30px', textTransform: 'none', fontWeight: 'lighter' }}
+                    >
+                      {page}
+                    </Button>
+                  ))}
+                </Stack>
+                <Stack direction='row' width='20vw' sx={{justifyContent: 'right'}}>
+                  <Tooltip title="Google Scholar">
+                    <IconButton onClick={()=> window.open('https://scholar.google.com/citations?user=ABEzcbkAAAAJ&hl=en', '_blank')}>
+                      <School sx={{color: '#D5D5D5'}}/>
+                    </IconButton>
+                  </Tooltip>
+                  <Tooltip title="YouTube">
+                    <IconButton onClick={()=> window.open('https://www.youtube.com/@auditt1528', '_blank')}>
+                      <YouTube sx={{color: '#D5D5D5'}}/>
+                    </IconButton>
+                  </Tooltip>
+                  <Tooltip title="GitHub">
+                    <IconButton onClick={()=> window.open('https://github.com/1sand0s', '_blank')}>
+                      <GitHub sx={{color: '#D5D5D5'}}/>
+                    </IconButton>
+                  </Tooltip>
+                </Stack>
+              </Stack>
             </Toolbar>
           </Container>
         </AppBar>
@@ -110,6 +147,21 @@ function App() {
       <Box ref={publication_ref} id='publications-page' sx={{width:'100vw', height:'auto', backgroundColor: 'black'}}>
         <Stack sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'lighter'}}>
           <Experiences experience_items={publication_items}  width='auto'/>
+        </Stack>
+      </Box>
+      <Box ref={workshop_ref} id='workshop-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
+        <Stack sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'normal', justifyContent: 'center', fontSize: '4em'}}>
+          <div style={{justifyContent: 'center'}}>Coming Soon!</div>
+        </Stack>
+      </Box>
+      <Box ref={calisthenics_ref} id='calisthenics-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
+        <Stack sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'normal', justifyContent: 'center', fontSize: '4em'}}>
+          <div style={{justifyContent: 'center'}}>Coming Soon!</div>
+        </Stack>
+      </Box>
+      <Box ref={life_ref} id='life-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
+        <Stack sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'normal', justifyContent: 'center', fontSize: '4em'}}>
+          <div style={{justifyContent: 'center'}}>Coming Soon!</div>
         </Stack>
       </Box>
     </Box>

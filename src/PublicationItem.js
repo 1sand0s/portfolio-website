@@ -1,4 +1,4 @@
-import {Stack} from "@mui/material"
+import {Button, Stack} from "@mui/material"
 import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 
 function ExperienceItem (props) {
@@ -41,9 +41,14 @@ function ExperienceItem (props) {
 
     return (
         <Stack id={id} sx={{padding: '10px', backgroundColor: '#5E5E5E80', color: '#D5D5D5', fontWeight: 'normal', borderRadius: '6px'}}>
-            <Stack direction='row' sx={{marginBottom: '8px', fontSize: '1.3em'}}>
-                <label style={{marginRight: '10px'}}><ArticleOutlinedIcon/></label>
-                <label>{authors_processed()}. <span style={{color:'#FF968D'}}>{title}</span>. <span style={{fontWeight: 'bold'}}> In <i style={{fontWeight:'bold'}}>{journal}</i> {year}</span>.</label>
+            <Stack direction='row' sx={{marginBottom: '8px', fontSize: '1.2em'}}>
+                {/* <label style={{marginRight: '10px'}}><ArticleOutlinedIcon/></label> */}
+                <label><ArticleOutlinedIcon/> {authors_processed()}. <span style={{color:'#FF968D'}}>{title}</span>. <span style={{fontWeight: 'bold'}}> In <i style={{fontWeight:'bold'}}>{journal}</i> {year}</span>.</label>
+            </Stack>
+            <Stack spacing={{ xs: 1, sm: 2 }} direction='row'>
+                <Button variant='outlined' sx={{textTransform: 'none', color:'#FF968D', border: '1px solid #FF968D'}}>PDF</Button>
+                <Button variant='outlined' sx={{textTransform: 'none', color:'#FF968D', border: '1px solid #FF968D'}}>Cite</Button>
+                <Button variant='outlined' sx={{textTransform: 'none', color:'#FF968D', border: '1px solid #FF968D'}}>Slides</Button>
             </Stack>
         </Stack>
     )
