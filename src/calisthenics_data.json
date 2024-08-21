@@ -2,6 +2,11 @@
     {
         "title": "Planche Saga",
         "content": "Coming soon",
-        "banner": "./rusted_rust.png"
+        "banner": "./planche_saga.jpeg"
+    },
+    {
+        "title": "Iron Cross Saga",
+        "content": "Coming soon",
+        "banner": "./iron_cross_saga.png"
     }
 ]
