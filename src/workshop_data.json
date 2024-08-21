@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Is Rust's coverage performance rusty?",
+        "content": "Milos told me that some folks had...",
+        "banner": "./rusted_rust.png"
+    },
+    {
+        "title": "Plague from the past : Welchia worm",
+        "content": "coming soon!",
+        "banner": "./welchia_worm.png"
+    },
+    {
+        "title": "Sniffing software vulnerabilities",
+        "content": "coming soon!",
+        "banner": "./sniffing_software_vulnerabilities.png"
+    }
+]

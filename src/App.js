@@ -1,12 +1,17 @@
 import { useState } from 'react';
 import './App.css';
 import selfie from './selfie.png'
-import {AppBar, Container, Toolbar, Box, Button, Stack, IconButton, Tooltip} from "@mui/material"
+import {AppBar, Container, Toolbar, Box, Button, Stack, IconButton, Tooltip, Card, CardActions, CardMedia, CardContent, Typography, Grid} from "@mui/material"
 import ExperienceItem from './ExperienceItem';
 import PublicationItem from './PublicationItem';
 import Experiences from './Experiences';
-import {Apple, Google, YouTube, GitHub, School} from '@mui/icons-material'
+import Workshop from './Workshop';
+import {Apple, Google, YouTube, GitHub, School, Share} from '@mui/icons-material'
+import { ComposableMap, Geographies, Geography } from "react-simple-maps"
 import { useRef, useEffect} from 'react';
+import WorkshopData from './workshop_data.json'
+import CalisthenicsData from './calisthenics_data.json'
+import Features from './features.json'
 
 function App() {
   const experience_ref = useRef(null)
@@ -15,6 +20,8 @@ function App() {
   const calisthenics_ref = useRef(null)
   const life_ref = useRef(null)
   const pages = ['Experience', 'Publications', 'Workshop', 'Calisthenics', 'Life']
+  const visited_countries = ['United States', 'India', 'Sri Lanka', 'Portugal', 'Brazil']
+
 
   const industry_experience_items = [
     <ExperienceItem id='apple-2024' icon={<Apple sx={{color: '#D5D5D5'}}/>} company='Apple' title='PhD Intern' dates='May 13 - August 16 2024' location='Cupertino, CA, USA'/>,
@@ -150,18 +157,27 @@ function App() {
         </Stack>
       </Box>
       <Box ref={workshop_ref} id='workshop-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
-        <Stack sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'normal', justifyContent: 'center', fontSize: '4em'}}>
-          <div style={{justifyContent: 'center'}}>Coming Soon!</div>
-        </Stack>
+        <Workshop data={WorkshopData}/>
       </Box>
       <Box ref={calisthenics_ref} id='calisthenics-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
-        <Stack sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'normal', justifyContent: 'center', fontSize: '4em'}}>
-          <div style={{justifyContent: 'center'}}>Coming Soon!</div>
-        </Stack>
+        <Workshop data={CalisthenicsData}/>
       </Box>
-      <Box ref={life_ref} id='life-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
-        <Stack sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'normal', justifyContent: 'center', fontSize: '4em'}}>
-          <div style={{justifyContent: 'center'}}>Coming Soon!</div>
+      <Box ref={life_ref} id='life-page' sx={{width:'100vw', height:'auto', backgroundColor: 'black'}}>
+        <Stack sx={{color: '#D5D5D5', paddingTop:'50px', marginLeft: '10px', marginRight: '50px', fontWeight: 'lighter'}}>
+          <ComposableMap style={{margin: 0}}>
+            <Geographies  style={{margin: 0}}geography={Features}>
+              {({ geographies }) =>
+                geographies.map((geo) => (
+                  <Geography style={{margin: 0}} key={geo.rsmKey} geography={geo} 
+                  strokeWidth='0.1px'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  fill={visited_countries.includes(geo.properties.name) ? '#FF696180' : '#000000'}
+                  stroke={visited_countries.includes(geo.properties.name) ? '#D5D5D5' : '#777777'} />
+                ))
+              }
+            </Geographies>
+          </ComposableMap>    
         </Stack>
       </Box>
     </Box>
