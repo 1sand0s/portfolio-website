@@ -82,7 +82,7 @@ function App() {
   return (
     <Box id='root' sx={{width:'100vw', height:'auto', backgroundColor: 'black'}}>
       <AppBar position="fixed" sx={{backgroundColor: 'black', paddingTop: '50px'}}> 
-          <Container maxWidth="xl" sx={{margin: 0}}>
+          <Container maxWidth="100vw" sx={{margin: 0, width: '100vw'}}>
             <Toolbar disableGutters>
               <Stack direction='row' width='100vw' sx={{justifyContent: 'space-between',margin: 0, marginLeft: '50px'}}>
                 <Stack direction='row' width='50vw'>
@@ -96,7 +96,7 @@ function App() {
                     </Button>
                   ))}
                 </Stack>
-                <Stack direction='row' width='20vw' sx={{justifyContent: 'right'}}>
+                <Stack direction='row' width='auto' sx={{justifyContent: 'right'}}>
                   <Tooltip title="Google Scholar">
                     <IconButton onClick={()=> window.open('https://scholar.google.com/citations?user=ABEzcbkAAAAJ&hl=en', '_blank')}>
                       <School sx={{color: '#D5D5D5'}}/>
@@ -123,11 +123,11 @@ function App() {
             component="img"
             sx={{
               height: '60vh',
-              width: '30vw',
+              width: '28vw',
             }}
             src={selfie}
           />
-          <Stack sx={{color: '#D5D5D5', justifyContent: 'center', marginLeft: '150px'}}>
+          <Stack sx={{color: '#D5D5D5', justifyContent: 'center', marginLeft: '15vw'}}>
             <label style={{fontSize: '2em'}}>Hey there!</label>
             <label style={{fontSize: '4em'}}>I'm <span style={{color:'#FF968D'}}>Aditya Thimmaiah</span></label>
             <label  style={{fontSize: '2em'}}><br/></label>
