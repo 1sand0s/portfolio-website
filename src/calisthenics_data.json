@@ -1,12 +1,17 @@
 [
     {
-        "title": "Planche Saga",
+        "title": "Back Lever Saga",
         "content": "Coming soon",
-        "banner": "./planche_saga.jpeg"
+        "banner": "./backlever_saga.jpg"
     },
     {
         "title": "Iron Cross Saga",
         "content": "Coming soon",
         "banner": "./iron_cross_saga.png"
+    },
+    {
+        "title": "Planche Saga",
+        "content": "Coming soon",
+        "banner": "./planche_saga.jpeg"
     }
 ]
