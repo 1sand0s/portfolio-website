@@ -1,17 +1,24 @@
+//React native imports
 import { useState } from 'react';
-import './App.css';
-import selfie from './selfie.png'
-import {AppBar, Container, Toolbar, Box, Button, Stack, IconButton, Tooltip, Card, CardActions, CardMedia, CardContent, Typography, Grid} from "@mui/material"
+import { useRef } from 'react';
+//React package imports
+import {AppBar, Container, Toolbar, Box, Button, Stack, IconButton, Tooltip} from "@mui/material"
+import { ComposableMap, Geographies, Geography } from "react-simple-maps"
+import {Apple, Google, YouTube, GitHub, School} from '@mui/icons-material'
+import { AspectRatio } from '@mui/joy';
+//App library component imports
 import ExperienceItem from './ExperienceItem';
 import PublicationItem from './PublicationItem';
 import Experiences from './Experiences';
 import Workshop from './Workshop';
-import {Apple, Google, YouTube, GitHub, School, Share} from '@mui/icons-material'
-import { ComposableMap, Geographies, Geography } from "react-simple-maps"
-import { useRef, useEffect} from 'react';
+//Data imports
 import WorkshopData from './workshop_data.json'
 import CalisthenicsData from './calisthenics_data.json'
 import Features from './features.json'
+import selfie from './selfie.png'
+//Stylesheet imports
+import './App.css';
+
 
 function App() {
   const experience_ref = useRef(null)
@@ -119,15 +126,16 @@ function App() {
         </AppBar>
       <Box id='main-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
         <Stack direction={'row'} sx={{paddingTop: '200px', marginLeft: '180px'}}>
-          <Box
-            component="img"
+          <AspectRatio
+            ratio='1/1'
+            objectFit='contain'
             sx={{
-              height: '60vh',
               width: '28vw',
             }}
-            src={selfie}
-          />
-          <Stack sx={{color: '#D5D5D5', justifyContent: 'center', marginLeft: '15vw'}}>
+          >
+            <img src={selfie} style={{backgroundColor : 'black'}}/>
+          </AspectRatio>
+          <Stack sx={{color: '#D5D5D5', justifyContent: 'center', marginLeft: '13vw'}}>
             <label style={{fontSize: '2em'}}>Hey there!</label>
             <label style={{fontSize: '4em'}}>I'm <span style={{color:'#FF968D'}}>Aditya Thimmaiah</span></label>
             <label  style={{fontSize: '2em'}}><br/></label>
