@@ -146,7 +146,7 @@ function App() {
               <Experiences experience_items={industry_experience_items} width='35vw'/>
             </Stack>
             <Stack>
-              <label style={{fontSize: '2em', marginBottom: '25px'}}>Volunteer Experience</label>
+              <label style={{fontSize: '2em', marginBottom: '25px'}}>Professional Service</label>
               <Experiences experience_items={volunteer_experience_items} width='40vw'/>
             </Stack>
         </Stack>
