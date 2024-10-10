@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.92e8bf8f.css",
-    "main.js": "/static/js/main.8a7cc01d.js",
+    "main.js": "/static/js/main.96a8ef3a.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/selfie.png": "/static/media/selfie.fb7eace456fefc2f4fdc.png",
     "static/media/sniffing_software_vulnerabilities.png": "/static/media/sniffing_software_vulnerabilities.527ee578e51651abd522.png",
     "static/media/rusted_rust.png": "/static/media/rusted_rust.4043162d735a758a6807.png",
     "static/media/welchia_worm.png": "/static/media/welchia_worm.0ccaa1e3ae9d8bba6b35.png",
     "static/media/backlever_saga.jpg": "/static/media/backlever_saga.b7333aa72ecf4d64714f.jpg",
+    "static/media/weighted_ring_stand.jpg": "/static/media/weighted_ring_stand.8f7703d1b2a33403ac53.jpg",
     "static/media/iron_cross_saga.png": "/static/media/iron_cross_saga.acae26853ab63fb266d5.png",
     "static/media/planche_saga.jpeg": "/static/media/planche_saga.511524a7972a93eede71.jpeg",
     "static/media/index.cjs": "/static/media/index.1282334337c6cac7deca.cjs",
     "index.html": "/index.html",
     "main.92e8bf8f.css.map": "/static/css/main.92e8bf8f.css.map",
-    "main.8a7cc01d.js.map": "/static/js/main.8a7cc01d.js.map",
+    "main.96a8ef3a.js.map": "/static/js/main.96a8ef3a.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92e8bf8f.css",
-    "static/js/main.8a7cc01d.js"
+    "static/js/main.96a8ef3a.js"
   ]
 }
