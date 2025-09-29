@@ -32,7 +32,7 @@ function App() {
 
 
   const industry_experience_items = [
-    <ExperienceItem id='dbt-2025' icon={<Dbt sx={{color: '#D5D5D5'}}/>} company='dbt Labs' title='PhD Intern' dates='June 2 - August 22 2025' location='Austin, TX, USA'/>,
+    <ExperienceItem id='dbt-2025' icon={<Dbt sx={{color: '#D5D5D5'}}/>} company='dbt Labs' title='PhD Intern' dates='June 2 - August 3 2025' location='Austin, TX, USA'/>,
     <ExperienceItem id='apple-2024' icon={<Apple sx={{color: '#D5D5D5'}}/>} company='Apple' title='PhD Intern' dates='May 13 - August 16 2024' location='Cupertino, CA, USA'/>,
     <ExperienceItem id='apple-2023' icon={<Apple sx={{color: '#D5D5D5'}}/>} company='Apple' title='PhD Intern' dates='May 08 - August 18 2023' location='Cupertino, CA, USA'/>,
     <ExperienceItem id='apple-2022' icon={<Apple sx={{color: '#D5D5D5'}}/>} company='Apple' title='PhD Intern' dates='May 27 - August 12 2022' location='Cupertino, CA, USA'/>,
@@ -161,7 +161,7 @@ function App() {
           </Stack>
         </Stack>
       </Box>
-      <Box ref={experience_ref} id='experience-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
+      <Box ref={experience_ref} id='experience-page' sx={{width:'100vw', height:'140vh', backgroundColor: 'black'}}>
         <Stack direction={'row'} sx={{color: '#D5D5D5', paddingTop: '200px', marginLeft: '130px', marginRight: '50px', fontWeight: 'lighter', justifyContent: 'space-between'}}>
             <Stack>
               <label style={{fontSize: '2em', marginBottom: '25px'}}>Industry Experience</label>
