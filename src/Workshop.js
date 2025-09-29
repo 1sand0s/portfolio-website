@@ -11,9 +11,9 @@ function Workshop (props) {
         {
             data.map((item) => (
             <Grid item xs={3}>
-                <Card sx={{ maxWidth: 370, backgroundColor: '#5E5E5E80', color: '#D5D5D5' }}>
+                <Card sx={{ maxWidth: 370, height: 370, backgroundColor: '#5E5E5E80', color: '#D5D5D5' }}>
                   <CardMedia
-                    sx={{ height: 140 }}
+                    sx={{ height: 200 }}
                     image={require(`${item.banner}`)}
                     title="image"
                   />

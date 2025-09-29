@@ -6,6 +6,7 @@ import {AppBar, Container, Toolbar, Box, Button, Stack, IconButton, Tooltip} fro
 import { ComposableMap, Geographies, Geography } from "react-simple-maps"
 import {Apple, Google, YouTube, GitHub, School} from '@mui/icons-material'
 import { AspectRatio } from '@mui/joy';
+import Dbt from './dbtlabs'
 //App library component imports
 import ExperienceItem from './ExperienceItem';
 import PublicationItem from './PublicationItem';
@@ -31,6 +32,7 @@ function App() {
 
 
   const industry_experience_items = [
+    <ExperienceItem id='dbt-2025' icon={<Dbt sx={{color: '#D5D5D5'}}/>} company='dbt Labs' title='PhD Intern' dates='June 2 - August 22 2025' location='Austin, TX, USA'/>,
     <ExperienceItem id='apple-2024' icon={<Apple sx={{color: '#D5D5D5'}}/>} company='Apple' title='PhD Intern' dates='May 13 - August 16 2024' location='Cupertino, CA, USA'/>,
     <ExperienceItem id='apple-2023' icon={<Apple sx={{color: '#D5D5D5'}}/>} company='Apple' title='PhD Intern' dates='May 08 - August 18 2023' location='Cupertino, CA, USA'/>,
     <ExperienceItem id='apple-2022' icon={<Apple sx={{color: '#D5D5D5'}}/>} company='Apple' title='PhD Intern' dates='May 27 - August 12 2022' location='Cupertino, CA, USA'/>,
@@ -38,6 +40,9 @@ function App() {
   ]
 
   const volunteer_experience_items = [
+    <ExperienceItem id='llm4code-2026'company='IEEE/ACM ICSE LLM4Code 2026' title='Program Committee' dates='November 2025' location='Austin, TX, USA'/>,
+    <ExperienceItem id='deeptest-2026'company='IEEE/ACM ICSE DeepTest 2026' title='Program Committee' dates='November 2025' location='Austin, TX, USA'/>,
+    <ExperienceItem id='ase-2025'company='IEEE/ACM ASE 2025' title='Reviewer' dates='July 2025' location='Austin, TX, USA'/>,
     <ExperienceItem id='icse-2025'company='IEEE/ACM ICSE 2025' title='Shadow PC - Reviewer' dates='July 22 - September 15 2024' location='Austin, TX, USA'/>,
     <ExperienceItem id='jss-2025'company='Elsevier Journal of Systems and Software' title='Reviewer' dates='May 13 - June 14 2024' location='Cupertino, CA, USA'/>,
     <ExperienceItem id='issta-2024'company='ACM ISSTA 2024' title='Reviewer' dates='August 2023' location='Austin, TX, USA'/>,
@@ -47,6 +52,7 @@ function App() {
 
 
   const publication_items = [
+    <PublicationItem id='ecoop-estore-2025' authors={['Aditya Thimmaiah', 'Zijian Yi', 'Joseph Kenis', 'Christopher Rossbach', 'Milos Gligoric']} journal='ECOOP' year='2025' title='In-memory Object Graph Stores'/>,
     <PublicationItem id='fse-lejit-2024' authors={['Zhiqiang Zang', 'Fu-Yao Yu', 'Aditya Thimmaiah', 'August Shi', 'Milos Gligoric']} journal='ACM FSE' year='2024' title='Java JIT Testing with Template Extraction'/>,
     <PublicationItem id='fse-exli-2024' authors={['Yu Liu', 'Aditya Thimmaiah', 'Owolabi Legunsen', 'Milos Gligoric']} journal='ACM FSE (Demo)' year='2024' title='ExLi: An Inline-Test Generation Tool for Java'/>,
     <PublicationItem id='icse-ogo-2024' authors={['Aditya Thimmaiah', 'Leonidas Lampropoulos', 'Christopher Rossbach', 'Milos Gligoric']} journal='ACM/IEEE ICSE' year='2024' title=' Object Graph Programming'/>,
@@ -125,25 +131,33 @@ function App() {
           </Container>
         </AppBar>
       <Box id='main-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
-        <Stack direction={'row'} sx={{paddingTop: '200px', marginLeft: '180px'}}>
-          <AspectRatio
-            ratio='1/1'
-            objectFit='contain'
-            sx={{
-              width: '28vw',
-            }}
-          >
-            <img src={selfie} style={{backgroundColor : 'black'}}/>
-          </AspectRatio>
-          <Stack sx={{color: '#D5D5D5', justifyContent: 'center', marginLeft: '13vw'}}>
-            <label style={{fontSize: '2em'}}>Hey there!</label>
-            <label style={{fontSize: '4em'}}>I'm <span style={{color:'#FF968D'}}>Aditya Thimmaiah</span></label>
-            <label  style={{fontSize: '2em'}}><br/></label>
-            <label  style={{fontSize: '1.5em', fontWeight: 'lighter'}}>I am an ECE PhD candidate at UT Austin advised by the <br/>one and only Dr Milos Gligoric<br/><br/>
-            My research interests include databases, programming languages,<br/> compiler testing and systems</label>
-            <Box sx={{paddingTop: '80px'}}>
-              <Button variant='contained' sx={{backgroundColor:'#FF6961', textTransform: 'none', fontSize: '1em', paddingLeft: '60px', paddingRight: '60px', paddingTop: '20px', paddingBottom: '20px'}}>Contact Me</Button>
-            </Box>
+        <Stack direction={'column'}>
+          <Stack direction={'row'} sx={{paddingTop: '200px', marginLeft: '180px'}}>
+            <AspectRatio
+              ratio='1/1'
+              objectFit='contain'
+              sx={{
+                width: '28vw',
+              }}
+            >
+              <img src={selfie} style={{backgroundColor : 'black'}}/>
+            </AspectRatio>
+            <Stack sx={{color: '#D5D5D5', justifyContent: 'center', marginLeft: '13vw'}}>
+              <label style={{fontSize: '2em'}}>Hey there!</label>
+              <label style={{fontSize: '4em'}}>I'm <span style={{color:'#FF968D'}}>Aditya Thimmaiah</span></label>
+              <label  style={{fontSize: '2em'}}><br/></label>
+              <label  style={{fontSize: '1.5em', fontWeight: 'lighter'}}>I am an ECE PhD candidate at UT Austin advised by the <br/>one and only Dr Milos Gligoric<br/><br/>
+              My research interests include databases, programming languages,<br/> compiler testing and systems</label>
+              <Box sx={{paddingTop: '80px'}}>
+                <Button variant='contained' sx={{backgroundColor:'#FF6961', textTransform: 'none', fontSize: '1em', paddingLeft: '60px', paddingRight: '60px', paddingTop: '20px', paddingBottom: '20px'}}>Contact Me</Button>
+              </Box>
+            </Stack>
+          </Stack>
+          <Stack direction={'column'}  sx={{paddingTop: '200px', marginLeft: '120px', marginRight: '120px'}}>
+            <Stack sx={{padding: '20px', backgroundColor: '#5E5E5E80', color: '#D5D5D5', fontWeight: 'normal', borderRadius: '6px'}}>
+              <label style={{fontSize: '2em', color: '#D5D5D5', fontWeight: 'lighter'}}> I have been awarded <span style={{color:'#FF968D'}}>UT Continuing Fellowship</span> for the year 2025-2026. It is UT's highest graduate student award for academic and research excellence.
+              This is my second time winning it.</label>
+            </Stack>
           </Stack>
         </Stack>
       </Box>
