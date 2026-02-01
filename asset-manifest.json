@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.211ffbdf.js",
+    "main.js": "/static/js/main.80792832.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -15,6 +15,7 @@
     "static/media/the_widow.jpg": "/static/media/the_widow.ace24d586299871b0f19.jpg",
     "static/media/welchia_worm.png": "/static/media/welchia_worm.0ccaa1e3ae9d8bba6b35.png",
     "static/media/backlever_saga.jpg": "/static/media/backlever_saga.b7333aa72ecf4d64714f.jpg",
+    "static/media/the_lotr.jpg": "/static/media/the_lotr.16ac801ee6cd2c71ee75.jpg",
     "static/media/weighted_ring_stand.jpg": "/static/media/weighted_ring_stand.8f7703d1b2a33403ac53.jpg",
     "static/media/bci-epeps.png": "/static/media/bci-epeps.323a3abe883c6c6e9cd5.png",
     "static/media/iron_cross_saga.png": "/static/media/iron_cross_saga.acae26853ab63fb266d5.png",
@@ -27,12 +28,15 @@
     "static/media/the_pelican_brief.jpg": "/static/media/the_pelican_brief.4f8f137d73e98888bb47.jpg",
     "static/media/the_firm.jpg": "/static/media/the_firm.0025fb20f42a37ac7cbc.jpg",
     "static/media/vul-samos.png": "/static/media/vul-samos.58933e0dcfc356c3aaec.png",
+    "static/media/beren_and_luthien.jpg": "/static/media/beren_and_luthien.6afa02acb39cf45057ba.jpg",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/the_lucifer_effect.jpg": "/static/media/the_lucifer_effect.ad526ae99204e891dc10.jpg",
     "static/media/the_portrait_of_artist_as_young_man.jpg": "/static/media/the_portrait_of_artist_as_young_man.3bc5361a95d24b6b9d89.jpg",
+    "static/media/the_hobbit.jpg": "/static/media/the_hobbit.b7db4e696213102aff3e.jpg",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
     "static/media/jog-icse-demo.png": "/static/media/jog-icse-demo.e71907086f0fe1651ed3.png",
+    "static/media/the_silmarillion.jpg": "/static/media/the_silmarillion.5c217e9eaaf50ce1d960.jpg",
     "static/media/exli-fse-demo.png": "/static/media/exli-fse-demo.8dd7f76402dfb16cfb4f.png",
     "static/media/lejit-fse.png": "/static/media/lejit-fse.4d91bba408e8f3e7c108.png",
     "static/media/KaTeX_Main-Italic.ttf": "/static/media/KaTeX_Main-Italic.fa675e5e4bec9eb250b6.ttf",
@@ -96,11 +100,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.211ffbdf.js.map": "/static/js/main.211ffbdf.js.map",
+    "main.80792832.js.map": "/static/js/main.80792832.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.211ffbdf.js"
+    "static/js/main.80792832.js"
   ]
 }
