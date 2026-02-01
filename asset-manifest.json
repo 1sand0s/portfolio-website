@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.af0ad5ec.js",
+    "main.js": "/static/js/main.95449c30.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -22,6 +22,7 @@
     "static/media/weighted_ring_stand.jpg": "/static/media/weighted_ring_stand.8f7703d1b2a33403ac53.jpg",
     "static/media/bci-epeps.png": "/static/media/bci-epeps.323a3abe883c6c6e9cd5.png",
     "static/media/iron_cross_saga.png": "/static/media/iron_cross_saga.acae26853ab63fb266d5.png",
+    "static/media/stop_worrying_start_living.jpg": "/static/media/stop_worrying_start_living.66f3f5cfd723af311703.jpg",
     "static/media/planche_saga.jpeg": "/static/media/planche_saga.511524a7972a93eede71.jpeg",
     "static/media/the_einstein_factor.jpg": "/static/media/the_einstein_factor.ca57948399757e349c98.jpg",
     "static/media/num_oorina_rasikaru.jpg": "/static/media/num_oorina_rasikaru.269d619cd16a4be2ae68.jpg",
@@ -113,11 +114,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.af0ad5ec.js.map": "/static/js/main.af0ad5ec.js.map",
+    "main.95449c30.js.map": "/static/js/main.95449c30.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.af0ad5ec.js"
+    "static/js/main.95449c30.js"
   ]
 }
