@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.97ad771a.js",
+    "main.js": "/static/js/main.1d8bdf16.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -75,6 +75,7 @@
     "static/media/KaTeX_Main-BoldItalic.woff": "/static/media/KaTeX_Main-BoldItalic.428978dc7837d46de091.woff",
     "static/media/KaTeX_Math-Italic.woff": "/static/media/KaTeX_Math-Italic.96759856b4e70f3a8338.woff",
     "static/media/KaTeX_Math-BoldItalic.woff": "/static/media/KaTeX_Math-BoldItalic.3f07ed67f06c720120ce.woff",
+    "static/media/glimpses_world_history.jpg": "/static/media/glimpses_world_history.64a45d67d0f87327a272.jpg",
     "static/media/KaTeX_Main-Italic.woff2": "/static/media/KaTeX_Main-Italic.fe2176f79edaa716e621.woff2",
     "static/media/KaTeX_Main-BoldItalic.woff2": "/static/media/KaTeX_Main-BoldItalic.20f389c4120be058d80a.woff2",
     "static/media/KaTeX_Script-Regular.ttf": "/static/media/KaTeX_Script-Regular.fc9ba5249878cd8f8d88.ttf",
@@ -115,11 +116,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.97ad771a.js.map": "/static/js/main.97ad771a.js.map",
+    "main.1d8bdf16.js.map": "/static/js/main.1d8bdf16.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.97ad771a.js"
+    "static/js/main.1d8bdf16.js"
   ]
 }
