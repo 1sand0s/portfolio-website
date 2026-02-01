@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.82cb390e.js",
+    "main.js": "/static/js/main.a5c81e65.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -16,24 +16,29 @@
     "static/media/the_widow.jpg": "/static/media/the_widow.ace24d586299871b0f19.jpg",
     "static/media/welchia_worm.png": "/static/media/welchia_worm.0ccaa1e3ae9d8bba6b35.png",
     "static/media/backlever_saga.jpg": "/static/media/backlever_saga.b7333aa72ecf4d64714f.jpg",
+    "static/media/adv_sherlock_holmes.jpg": "/static/media/adv_sherlock_holmes.a43704dd56211c84d1c7.jpg",
     "static/media/the_lotr.jpg": "/static/media/the_lotr.16ac801ee6cd2c71ee75.jpg",
     "static/media/weighted_ring_stand.jpg": "/static/media/weighted_ring_stand.8f7703d1b2a33403ac53.jpg",
     "static/media/bci-epeps.png": "/static/media/bci-epeps.323a3abe883c6c6e9cd5.png",
     "static/media/iron_cross_saga.png": "/static/media/iron_cross_saga.acae26853ab63fb266d5.png",
     "static/media/planche_saga.jpeg": "/static/media/planche_saga.511524a7972a93eede71.jpeg",
     "static/media/the_einstein_factor.jpg": "/static/media/the_einstein_factor.ca57948399757e349c98.jpg",
+    "static/media/num_oorina_rasikaru.jpg": "/static/media/num_oorina_rasikaru.269d619cd16a4be2ae68.jpg",
     "static/media/jog-issta.png": "/static/media/jog-issta.2e41aa8f96f3512efc95.png",
     "static/media/the_exchange_after_the_firm.jpg": "/static/media/the_exchange_after_the_firm.8d0a63b6de487a1fce30.jpg",
     "static/media/ogo-icse.png": "/static/media/ogo-icse.8bf6ff07e701612d0b17.png",
     "static/media/the_street_lawyer.jpg": "/static/media/the_street_lawyer.b09deabe61aca27a45c2.jpg",
     "static/media/the_pelican_brief.jpg": "/static/media/the_pelican_brief.4f8f137d73e98888bb47.jpg",
     "static/media/as_you_like_it.jpg": "/static/media/as_you_like_it.51f44a6d073a72024923.jpg",
+    "static/media/david_copperfield.jpg": "/static/media/david_copperfield.bd57583146820043a93a.jpg",
     "static/media/the_firm.jpg": "/static/media/the_firm.0025fb20f42a37ac7cbc.jpg",
     "static/media/vul-samos.png": "/static/media/vul-samos.58933e0dcfc356c3aaec.png",
     "static/media/beren_and_luthien.jpg": "/static/media/beren_and_luthien.6afa02acb39cf45057ba.jpg",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/the_lucifer_effect.jpg": "/static/media/the_lucifer_effect.ad526ae99204e891dc10.jpg",
+    "static/media/return_of_sherlock_holmes.jpg": "/static/media/return_of_sherlock_holmes.603e020fb5e6b8861054.jpg",
     "static/media/macbeth.jpg": "/static/media/macbeth.1ca8ca9340b2d011739e.jpg",
+    "static/media/malgudi_days.jpg": "/static/media/malgudi_days.7850686098587901dc31.jpg",
     "static/media/the_portrait_of_artist_as_young_man.jpg": "/static/media/the_portrait_of_artist_as_young_man.3bc5361a95d24b6b9d89.jpg",
     "static/media/the_hobbit.jpg": "/static/media/the_hobbit.b7db4e696213102aff3e.jpg",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -103,11 +108,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.82cb390e.js.map": "/static/js/main.82cb390e.js.map",
+    "main.a5c81e65.js.map": "/static/js/main.a5c81e65.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.82cb390e.js"
+    "static/js/main.a5c81e65.js"
   ]
 }
