@@ -1,25 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.8dfe8a76.js",
+    "main.js": "/static/js/main.4513e47d.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/selfie.png": "/static/media/selfie.fb7eace456fefc2f4fdc.png",
+    "static/media/vul-toes.png": "/static/media/vul-toes.576f80a11f740f98b633.png",
     "static/media/sniffing_software_vulnerabilities.png": "/static/media/sniffing_software_vulnerabilities.527ee578e51651abd522.png",
     "static/media/rusted_rust.png": "/static/media/rusted_rust.4043162d735a758a6807.png",
+    "static/media/vul-cicc.png": "/static/media/vul-cicc.f668e4f19f3535be6599.png",
     "static/media/welchia_worm.png": "/static/media/welchia_worm.0ccaa1e3ae9d8bba6b35.png",
     "static/media/backlever_saga.jpg": "/static/media/backlever_saga.b7333aa72ecf4d64714f.jpg",
     "static/media/weighted_ring_stand.jpg": "/static/media/weighted_ring_stand.8f7703d1b2a33403ac53.jpg",
+    "static/media/bci-epeps.png": "/static/media/bci-epeps.323a3abe883c6c6e9cd5.png",
     "static/media/iron_cross_saga.png": "/static/media/iron_cross_saga.acae26853ab63fb266d5.png",
     "static/media/planche_saga.jpeg": "/static/media/planche_saga.511524a7972a93eede71.jpeg",
+    "static/media/jog-issta.png": "/static/media/jog-issta.2e41aa8f96f3512efc95.png",
+    "static/media/ogo-icse.png": "/static/media/ogo-icse.8bf6ff07e701612d0b17.png",
+    "static/media/vul-samos.png": "/static/media/vul-samos.58933e0dcfc356c3aaec.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
+    "static/media/jog-icse-demo.png": "/static/media/jog-icse-demo.e71907086f0fe1651ed3.png",
+    "static/media/exli-fse-demo.png": "/static/media/exli-fse-demo.62518df82d99f3c2b253.png",
+    "static/media/lejit-fse.png": "/static/media/lejit-fse.4d91bba408e8f3e7c108.png",
     "static/media/KaTeX_Main-Italic.ttf": "/static/media/KaTeX_Main-Italic.fa675e5e4bec9eb250b6.ttf",
     "static/media/KaTeX_AMS-Regular.woff": "/static/media/KaTeX_AMS-Regular.d562e886c52f12660a41.woff",
     "static/media/KaTeX_Main-BoldItalic.ttf": "/static/media/KaTeX_Main-BoldItalic.828abcb200061cffbaae.ttf",
     "static/media/KaTeX_Math-Italic.ttf": "/static/media/KaTeX_Math-Italic.8a5f936332e8028c7278.ttf",
     "static/media/KaTeX_Math-BoldItalic.ttf": "/static/media/KaTeX_Math-BoldItalic.bf2d440b3a42ea78a998.ttf",
     "static/media/KaTeX_Main-Regular.woff": "/static/media/KaTeX_Main-Regular.4f35fbcc9ee8614c2bcc.woff",
+    "static/media/estore-ecoop.png": "/static/media/estore-ecoop.579f5d648f30238c0cab.png",
     "static/media/KaTeX_Main-Bold.woff": "/static/media/KaTeX_Main-Bold.0c3b8929d377c0e9b2f3.woff",
     "static/media/KaTeX_AMS-Regular.woff2": "/static/media/KaTeX_AMS-Regular.73ea273a72f4aca30ca5.woff2",
     "static/media/KaTeX_Typewriter-Regular.ttf": "/static/media/KaTeX_Typewriter-Regular.c5c02d763c89380dcb4e.ttf",
@@ -74,11 +84,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.8dfe8a76.js.map": "/static/js/main.8dfe8a76.js.map",
+    "main.4513e47d.js.map": "/static/js/main.4513e47d.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.8dfe8a76.js"
+    "static/js/main.4513e47d.js"
   ]
 }
