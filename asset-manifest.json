@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.a5c81e65.js",
+    "main.js": "/static/js/main.5715734d.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -34,6 +34,7 @@
     "static/media/the_firm.jpg": "/static/media/the_firm.0025fb20f42a37ac7cbc.jpg",
     "static/media/vul-samos.png": "/static/media/vul-samos.58933e0dcfc356c3aaec.png",
     "static/media/beren_and_luthien.jpg": "/static/media/beren_and_luthien.6afa02acb39cf45057ba.jpg",
+    "static/media/pure_white_deadly.jpg": "/static/media/pure_white_deadly.5022ff4396f03aa5c701.jpg",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/the_lucifer_effect.jpg": "/static/media/the_lucifer_effect.ad526ae99204e891dc10.jpg",
     "static/media/return_of_sherlock_holmes.jpg": "/static/media/return_of_sherlock_holmes.603e020fb5e6b8861054.jpg",
@@ -108,11 +109,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.a5c81e65.js.map": "/static/js/main.a5c81e65.js.map",
+    "main.5715734d.js.map": "/static/js/main.5715734d.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.a5c81e65.js"
+    "static/js/main.5715734d.js"
   ]
 }
