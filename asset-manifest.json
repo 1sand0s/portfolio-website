@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.19b70f46.js",
+    "main.js": "/static/js/main.99832b81.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -12,6 +12,7 @@
     "static/media/vul-toes.png": "/static/media/vul-toes.576f80a11f740f98b633.png",
     "static/media/sniffing_software_vulnerabilities.png": "/static/media/sniffing_software_vulnerabilities.527ee578e51651abd522.png",
     "static/media/rusted_rust.png": "/static/media/rusted_rust.4043162d735a758a6807.png",
+    "static/media/brief_history_of_time.jpg": "/static/media/brief_history_of_time.6d7f5c488ad0080ca1bf.jpg",
     "static/media/vul-cicc.png": "/static/media/vul-cicc.f668e4f19f3535be6599.png",
     "static/media/the_widow.jpg": "/static/media/the_widow.ace24d586299871b0f19.jpg",
     "static/media/welchia_worm.png": "/static/media/welchia_worm.0ccaa1e3ae9d8bba6b35.png",
@@ -111,11 +112,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.19b70f46.js.map": "/static/js/main.19b70f46.js.map",
+    "main.99832b81.js.map": "/static/js/main.99832b81.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.19b70f46.js"
+    "static/js/main.99832b81.js"
   ]
 }
