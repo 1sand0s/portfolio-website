@@ -8,7 +8,7 @@ function Experiences (props) {
         <List id={id} style={{margin: 0, padding: 0, width: width}}>
             {
                 experience_items?.map((item) => (
-                    <ListItem sx={{display: 'list-item'}}>
+                    <ListItem key={item.props?.id || item} sx={{display: 'list-item'}}>
                         <ListItemButton>
                             <ListItemIcon>
                                 <Circle sx={{color: '#FF968D', fontSize: '1em'}}/>

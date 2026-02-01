@@ -1,8 +1,8 @@
-import {Button, Stack} from "@mui/material"
+import {Button, Stack, Link} from "@mui/material"
 import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 
 function ExperienceItem (props) {
-    const {id, authors, title, journal, year} = props
+    const {id, authors, title, journal, year, pdf_link, item_icon, slides_link = null} = props
 
     const authors_processed = () => {
         let authors_processed = []
@@ -40,15 +40,21 @@ function ExperienceItem (props) {
     }
 
     return (
-        <Stack id={id} sx={{padding: '10px', backgroundColor: '#5E5E5E80', color: '#D5D5D5', fontWeight: 'normal', borderRadius: '6px'}}>
-            <Stack direction='row' sx={{marginBottom: '8px', fontSize: '1.2em'}}>
-                {/* <label style={{marginRight: '10px'}}><ArticleOutlinedIcon/></label> */}
-                <label><ArticleOutlinedIcon/> {authors_processed()}. <span style={{color:'#FF968D'}}>{title}</span>. <span style={{fontWeight: 'bold'}}> In <i style={{fontWeight:'bold'}}>{journal}</i> {year}</span>.</label>
-            </Stack>
-            <Stack spacing={{ xs: 1, sm: 2 }} direction='row'>
-                <Button variant='outlined' sx={{textTransform: 'none', color:'#FF968D', border: '1px solid #FF968D'}}>PDF</Button>
-                <Button variant='outlined' sx={{textTransform: 'none', color:'#FF968D', border: '1px solid #FF968D'}}>Cite</Button>
-                <Button variant='outlined' sx={{textTransform: 'none', color:'#FF968D', border: '1px solid #FF968D'}}>Slides</Button>
+        <Stack direction='row' sx={{padding: '10px', backgroundColor: '#5E5E5E80', color: '#D5D5D5', fontWeight: 'normal', borderRadius: '6px'}}>
+            <img src={item_icon} alt='item_icon' style={{width: '200px', height: '110px', marginRight: '10px'}}/>
+            <Stack id={id}>
+                <Stack sx={{marginBottom: '6px', fontSize: '1.2em'}}>
+                    <label><span style={{color:'#FF968D', fontWeight: 'bold'}}>{title}</span></label>
+                    <label>{authors_processed()}</label>
+                    <label><span>{journal} {year}</span></label>
+                </Stack>
+                <Stack spacing={{ xs: 1, sm: 1 }} direction='row'>
+                    <Link sx={{textTransform: 'none', color:'#FF968D', underline: 'always', textDecorationColor: '#FF968D'}} href={pdf_link} target='_blank'>[PDF]</Link>
+                    {/* <Link sx={{textTransform: 'none', color:'#FF968D', underline: 'always', textDecorationColor: '#FF968D'}} href={pdf_link} target='_blank'>[Cite]</Link> */}
+                    {slides_link && (
+                    <Link sx={{textTransform: 'none', color:'#FF968D', underline: 'always', textDecorationColor: '#FF968D'}} href={slides_link} target='_blank'>[Slides]</Link>
+                    )}
+                </Stack>
             </Stack>
         </Stack>
     )

@@ -1,0 +1,163 @@
+[
+    {
+        "title": "The Exchange",
+        "author": "John Grisham",
+        "year": "2023",
+        "rating": 0,
+        "banner": "./the_exchange_after_the_firm.jpg"
+    },
+    {
+        "title": "The Widow",
+        "author": "John Grisham",
+        "year": "2025",
+        "rating": 4,
+        "banner": "./the_widow.jpg"
+    },
+    {
+        "title": "The Street Lawyer",
+        "author": "John Grisham",
+        "year": "1998",
+        "rating": 3.5,
+        "banner": "./the_street_lawyer.jpg"
+    },
+    {
+        "title": "The Firm",
+        "author": "John Grisham",
+        "year": "1991",
+        "rating": 5,
+        "banner": "./the_firm.jpg"
+    },
+    {
+        "title": "The Pelican Brief",
+        "author": "John Grisham",
+        "year": "1992",
+        "rating": 4,
+        "banner": "./the_pelican_brief.jpg"
+    },
+    {
+        "title": "The Lucifer Effect",
+        "author": "Philip Zimbardo",
+        "year": "2007",
+        "rating": 4,
+        "banner": "./the_lucifer_effect.jpg"
+    },
+    {
+        "title": "The Einstein Factor",
+        "author": "Win Wenger & Richard Poe",
+        "year": "1995",
+        "rating": 5,
+        "banner": "./the_einstein_factor.jpg"
+    },
+    {
+        "title": "A Portrait of the Artist...",
+        "author": "James Joyce",
+        "year": "1916",
+        "rating": 3,
+        "banner": "./the_portrait_of_artist_as_young_man.jpg"
+    },
+    {
+        "title": "The Silmarillion",
+        "author": "J.R.R. Tolkien",
+        "year": "1977",
+        "rating": 5,
+        "banner": "./the_silmarillion.jpg"
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": "1937",
+        "rating": 5,
+        "banner": "./the_hobbit.jpg"
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "year": "1954",
+        "rating": 5,
+        "banner": "./the_lotr.jpg"
+    },
+    {
+        "title": "Beren and Luthien",
+        "author": "J.R.R. Tolkien",
+        "year": "2017",
+        "rating": 5,
+        "banner": "./beren_and_luthien.jpg"
+    },
+    {
+        "title": "The Adv. of Tom...",
+        "author": "Mark Twain",
+        "year": "1876",
+        "rating": 5,
+        "banner": "./tom_sawyer.jpg"
+    },
+    {
+        "title": "Macbeth",
+        "author": "William Shakespeare",
+        "year": "1623",
+        "rating": 5,
+        "banner": "./macbeth.jpg"
+    },
+    {
+        "title": "As you like it",
+        "author": "William Shakespeare",
+        "year": "1600",
+        "rating": 3,
+        "banner": "./as_you_like_it.jpg"
+    },
+    {
+        "title": "Malgudi Days",
+        "author": "R.K. Narayan",
+        "year": "1943",
+        "rating": 5,
+        "banner": "./malgudi_days.jpg"
+    },
+    {
+        "title": "Num Oorina Rasikaru",
+        "author": "G.R. Iyengar",
+        "year": "1932",
+        "rating": 5,
+        "banner": "./num_oorina_rasikaru.jpg"
+    },
+    {
+        "title": "David Copperfield",
+        "author": "Charles Dickens",
+        "year": "1849",
+        "rating": 5,
+        "banner": "./david_copperfield.jpg"
+    },
+    {
+        "title": "The Adv. of Sherlock...",
+        "author": "Arthur Conan Doyle",
+        "year": "1892",
+        "rating": 5,
+        "banner": "./adv_sherlock_holmes.jpg"
+    },
+    {
+        "title": "Return of Sherlock...",
+        "author": "Arthur Conan Doyle",
+        "year": "1905",
+        "rating": 5,
+        "banner": "./return_of_sherlock_holmes.jpg"
+    },
+    {
+        "title": "Pure, White and Deadly",
+        "author": "John Yudkin",
+        "year": "1972",
+        "rating": 5,
+        "banner": "./pure_white_deadly.jpg"
+    },
+    {
+        "title": "Choice Theory",
+        "author": "William Glasser",
+        "year": "1998",
+        "rating": 4.5,
+        "banner": "./choice_theory.jpg"
+    },
+    {
+        "title": "Why We Sleep",
+        "author": "Matthew Walker",
+        "year": "2017",
+        "rating": 4,
+        "banner": "./why_we_sleep.jpg"
+    }
+]
