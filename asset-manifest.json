@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.95449c30.js",
+    "main.js": "/static/js/main.a0e4542e.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -17,6 +17,7 @@
     "static/media/the_widow.jpg": "/static/media/the_widow.ace24d586299871b0f19.jpg",
     "static/media/welchia_worm.png": "/static/media/welchia_worm.0ccaa1e3ae9d8bba6b35.png",
     "static/media/backlever_saga.jpg": "/static/media/backlever_saga.b7333aa72ecf4d64714f.jpg",
+    "static/media/nicholas_and_alexandra.jpg": "/static/media/nicholas_and_alexandra.78f23da2b14514f25e6b.jpg",
     "static/media/adv_sherlock_holmes.jpg": "/static/media/adv_sherlock_holmes.a43704dd56211c84d1c7.jpg",
     "static/media/the_lotr.jpg": "/static/media/the_lotr.16ac801ee6cd2c71ee75.jpg",
     "static/media/weighted_ring_stand.jpg": "/static/media/weighted_ring_stand.8f7703d1b2a33403ac53.jpg",
@@ -114,11 +115,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.95449c30.js.map": "/static/js/main.95449c30.js.map",
+    "main.a0e4542e.js.map": "/static/js/main.a0e4542e.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.95449c30.js"
+    "static/js/main.a0e4542e.js"
   ]
 }
