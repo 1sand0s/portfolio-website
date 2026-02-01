@@ -1,8 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.4513e47d.js",
+    "main.js": "/static/js/main.ceacb9e1.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
+    "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
+    "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
+    "static/media/exli-fse-slides.pdf": "/static/media/exli-fse-slides.35b74e5f1a620a3e4ce9.pdf",
+    "static/media/ogo-icse-slides.pdf": "/static/media/ogo-icse-slides.01fc5150b38e254d51cb.pdf",
     "static/media/selfie.png": "/static/media/selfie.fb7eace456fefc2f4fdc.png",
     "static/media/vul-toes.png": "/static/media/vul-toes.576f80a11f740f98b633.png",
     "static/media/sniffing_software_vulnerabilities.png": "/static/media/sniffing_software_vulnerabilities.527ee578e51651abd522.png",
@@ -21,7 +25,7 @@
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
     "static/media/jog-icse-demo.png": "/static/media/jog-icse-demo.e71907086f0fe1651ed3.png",
-    "static/media/exli-fse-demo.png": "/static/media/exli-fse-demo.62518df82d99f3c2b253.png",
+    "static/media/exli-fse-demo.png": "/static/media/exli-fse-demo.8dd7f76402dfb16cfb4f.png",
     "static/media/lejit-fse.png": "/static/media/lejit-fse.4d91bba408e8f3e7c108.png",
     "static/media/KaTeX_Main-Italic.ttf": "/static/media/KaTeX_Main-Italic.fa675e5e4bec9eb250b6.ttf",
     "static/media/KaTeX_AMS-Regular.woff": "/static/media/KaTeX_AMS-Regular.d562e886c52f12660a41.woff",
@@ -84,11 +88,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.4513e47d.js.map": "/static/js/main.4513e47d.js.map",
+    "main.ceacb9e1.js.map": "/static/js/main.ceacb9e1.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.4513e47d.js"
+    "static/js/main.ceacb9e1.js"
   ]
 }
