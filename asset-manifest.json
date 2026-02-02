@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.1d8bdf16.js",
+    "main.js": "/static/js/main.d32726a8.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -37,6 +37,7 @@
     "static/media/david_copperfield.jpg": "/static/media/david_copperfield.bd57583146820043a93a.jpg",
     "static/media/the_firm.jpg": "/static/media/the_firm.0025fb20f42a37ac7cbc.jpg",
     "static/media/vul-samos.png": "/static/media/vul-samos.58933e0dcfc356c3aaec.png",
+    "static/media/lincoln_lawyer.jpg": "/static/media/lincoln_lawyer.30ca18959ed9bc93819c.jpg",
     "static/media/beren_and_luthien.jpg": "/static/media/beren_and_luthien.6afa02acb39cf45057ba.jpg",
     "static/media/convict_conditioning.jpg": "/static/media/convict_conditioning.dc3e5296a55ee7a6f434.jpg",
     "static/media/pure_white_deadly.jpg": "/static/media/pure_white_deadly.5022ff4396f03aa5c701.jpg",
@@ -116,11 +117,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.1d8bdf16.js.map": "/static/js/main.1d8bdf16.js.map",
+    "main.d32726a8.js.map": "/static/js/main.d32726a8.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.1d8bdf16.js"
+    "static/js/main.d32726a8.js"
   ]
 }
