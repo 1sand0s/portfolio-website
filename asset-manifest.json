@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.594d6419.js",
+    "main.js": "/static/js/main.4a9670f5.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -61,6 +61,7 @@
     "static/media/the_silmarillion.jpg": "/static/media/the_silmarillion.5c217e9eaaf50ce1d960.jpg",
     "static/media/exli-fse-demo.png": "/static/media/exli-fse-demo.8dd7f76402dfb16cfb4f.png",
     "static/media/lejit-fse.png": "/static/media/lejit-fse.4d91bba408e8f3e7c108.png",
+    "static/media/propaganda.jpg": "/static/media/propaganda.582f08bf374f7d1ac2f0.jpg",
     "static/media/KaTeX_Main-Italic.ttf": "/static/media/KaTeX_Main-Italic.fa675e5e4bec9eb250b6.ttf",
     "static/media/KaTeX_AMS-Regular.woff": "/static/media/KaTeX_AMS-Regular.d562e886c52f12660a41.woff",
     "static/media/KaTeX_Main-BoldItalic.ttf": "/static/media/KaTeX_Main-BoldItalic.828abcb200061cffbaae.ttf",
@@ -124,11 +125,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.594d6419.js.map": "/static/js/main.594d6419.js.map",
+    "main.4a9670f5.js.map": "/static/js/main.4a9670f5.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.594d6419.js"
+    "static/js/main.4a9670f5.js"
   ]
 }
