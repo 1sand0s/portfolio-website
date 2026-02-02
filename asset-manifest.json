@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.77615423.js",
+    "main.js": "/static/js/main.915caf05.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -46,6 +46,7 @@
     "static/media/demon_haunted_world.jpg": "/static/media/demon_haunted_world.ff47cad1666f5f634695.jpg",
     "static/media/theory_of_everything.jpg": "/static/media/theory_of_everything.07fd5d49fd41f06cf2ed.jpg",
     "static/media/wings_of_fire.jpg": "/static/media/wings_of_fire.674d8f289ea6d7cd3800.jpg",
+    "static/media/hound_baskervilles.jpg": "/static/media/hound_baskervilles.395fe71c84d0efde64b4.jpg",
     "static/media/the_pelican_brief.jpg": "/static/media/the_pelican_brief.4f8f137d73e98888bb47.jpg",
     "static/media/harry_potter.jpg": "/static/media/harry_potter.f231aaf68e7b2414a27a.jpg",
     "static/media/as_you_like_it.jpg": "/static/media/as_you_like_it.51f44a6d073a72024923.jpg",
@@ -139,11 +140,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.77615423.js.map": "/static/js/main.77615423.js.map",
+    "main.915caf05.js.map": "/static/js/main.915caf05.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.77615423.js"
+    "static/js/main.915caf05.js"
   ]
 }
