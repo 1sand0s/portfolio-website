@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.93edc776.js",
+    "main.js": "/static/js/main.172f944f.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -57,6 +57,7 @@
     "static/media/the_portrait_of_artist_as_young_man.jpg": "/static/media/the_portrait_of_artist_as_young_man.3bc5361a95d24b6b9d89.jpg",
     "static/media/the_hobbit.jpg": "/static/media/the_hobbit.b7db4e696213102aff3e.jpg",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
+    "static/media/tintin.jpg": "/static/media/tintin.2911869ba5226f0af3e0.jpg",
     "static/media/KaTeX_Main-Bold.ttf": "/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
     "static/media/jog-icse-demo.png": "/static/media/jog-icse-demo.e71907086f0fe1651ed3.png",
     "static/media/the_silmarillion.jpg": "/static/media/the_silmarillion.5c217e9eaaf50ce1d960.jpg",
@@ -127,11 +128,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.93edc776.js.map": "/static/js/main.93edc776.js.map",
+    "main.172f944f.js.map": "/static/js/main.172f944f.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.93edc776.js"
+    "static/js/main.172f944f.js"
   ]
 }
