@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.17852db9.js",
+    "main.js": "/static/js/main.45c6f85f.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -39,6 +39,7 @@
     "static/media/the_exchange_after_the_firm.jpg": "/static/media/the_exchange_after_the_firm.8d0a63b6de487a1fce30.jpg",
     "static/media/ogo-icse.png": "/static/media/ogo-icse.8bf6ff07e701612d0b17.png",
     "static/media/the_street_lawyer.jpg": "/static/media/the_street_lawyer.b09deabe61aca27a45c2.jpg",
+    "static/media/harlequin_tea_set.jpg": "/static/media/harlequin_tea_set.e682033b0769f4560504.jpg",
     "static/media/demon_haunted_world.jpg": "/static/media/demon_haunted_world.ff47cad1666f5f634695.jpg",
     "static/media/theory_of_everything.jpg": "/static/media/theory_of_everything.07fd5d49fd41f06cf2ed.jpg",
     "static/media/wings_of_fire.jpg": "/static/media/wings_of_fire.674d8f289ea6d7cd3800.jpg",
@@ -135,11 +136,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.17852db9.js.map": "/static/js/main.17852db9.js.map",
+    "main.45c6f85f.js.map": "/static/js/main.45c6f85f.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.17852db9.js"
+    "static/js/main.45c6f85f.js"
   ]
 }
