@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.e03837ce.js",
+    "main.js": "/static/js/main.93edc776.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -27,6 +27,7 @@
     "static/media/bpd_npd_schizoid.jpg": "/static/media/bpd_npd_schizoid.4cb8d9c77e387254a9e3.jpg",
     "static/media/planche_saga.jpeg": "/static/media/planche_saga.511524a7972a93eede71.jpeg",
     "static/media/the_einstein_factor.jpg": "/static/media/the_einstein_factor.ca57948399757e349c98.jpg",
+    "static/media/pygmalion.jpg": "/static/media/pygmalion.f384918e5059af35b57d.jpg",
     "static/media/num_oorina_rasikaru.jpg": "/static/media/num_oorina_rasikaru.269d619cd16a4be2ae68.jpg",
     "static/media/around_the_world_80_days.jpg": "/static/media/around_the_world_80_days.e4e25db0f00691939ece.jpg",
     "static/media/jog-issta.png": "/static/media/jog-issta.2e41aa8f96f3512efc95.png",
@@ -126,11 +127,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.e03837ce.js.map": "/static/js/main.e03837ce.js.map",
+    "main.93edc776.js.map": "/static/js/main.93edc776.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.e03837ce.js"
+    "static/js/main.93edc776.js"
   ]
 }
