@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.3a671bc9.css",
-    "main.js": "/static/js/main.45c6f85f.js",
+    "main.js": "/static/js/main.a0cf9476.js",
     "static/js/453.aae11db5.chunk.js": "/static/js/453.aae11db5.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
     "static/media/exli-fse-slides.pdf": "/static/media/exli-fse-slides.35b74e5f1a620a3e4ce9.pdf",
     "static/media/ogo-icse-slides.pdf": "/static/media/ogo-icse-slides.01fc5150b38e254d51cb.pdf",
+    "static/media/backlever_intro.mp4": "/static/media/backlever_intro.ed1c9c152744194d4702.mp4",
+    "static/media/weighted_ring_stand.mp4": "/static/media/weighted_ring_stand.6b6c44177de2e660d656.mp4",
     "static/media/selfie.png": "/static/media/selfie.fb7eace456fefc2f4fdc.png",
     "static/media/tom_sawyer.jpg": "/static/media/tom_sawyer.04b9b71d498111fff2b6.jpg",
     "static/media/vul-toes.png": "/static/media/vul-toes.576f80a11f740f98b633.png",
@@ -136,11 +138,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.3a671bc9.css.map": "/static/css/main.3a671bc9.css.map",
-    "main.45c6f85f.js.map": "/static/js/main.45c6f85f.js.map",
+    "main.a0cf9476.js.map": "/static/js/main.a0cf9476.js.map",
     "453.aae11db5.chunk.js.map": "/static/js/453.aae11db5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a671bc9.css",
-    "static/js/main.45c6f85f.js"
+    "static/js/main.a0cf9476.js"
   ]
 }
