@@ -4,7 +4,7 @@ import { useRef } from 'react';
 //React package imports
 import {AppBar, Container, Toolbar, Box, Button, Stack, IconButton, Tooltip} from "@mui/material"
 import { ComposableMap, Geographies, Geography } from "react-simple-maps"
-import {Apple, Google, YouTube, GitHub, School, Email} from '@mui/icons-material'
+import {Apple, Google, YouTube, GitHub, School} from '@mui/icons-material'
 import { AspectRatio } from '@mui/joy';
 import { InlineMath, BlockMath } from 'react-katex';
 import Dbt from './dbtlabs'
@@ -13,6 +13,7 @@ import ExperienceItem from './ExperienceItem';
 import PublicationItem from './PublicationItem';
 import Experiences from './Experiences';
 import Workshop from './Workshop';
+import Calisthenics from './Calisthenics';
 import GoodReads from './GoodReads';
 //Data imports
 import WorkshopData from './workshop_data.json'
@@ -46,7 +47,7 @@ function App() {
   const workshop_ref = useRef(null)
   const calisthenics_ref = useRef(null)
   const life_ref = useRef(null)
-  const pages = ['Experience', 'Publications', 'Good Reads', 'Workshop', 'Calisthenics']
+  const pages = ['Experience', 'Publications']
   const visited_countries = ['United States', 'India', 'Sri Lanka', 'Portugal', 'Brazil']
 
 
@@ -59,6 +60,7 @@ function App() {
   ]
 
   const volunteer_experience_items = [
+    <ExperienceItem id='tse-2026'company='IEEE Transactions on Software Engineering 2026' title='Review Committee' dates='March 2026' location='Austin, TX, USA'/>,
     <ExperienceItem id='pldi-2026'company='ACM PLDI 2026' title='AE Committee' dates='March 2026' location='Austin, TX, USA'/>,
     <ExperienceItem id='llm4code-2026'company='IEEE/ACM ICSE LLM4Code 2026' title='Program Committee' dates='November 2025' location='Austin, TX, USA'/>,
     <ExperienceItem id='deeptest-2026'company='IEEE/ACM ICSE DeepTest 2026' title='Program Committee' dates='November 2025' location='Austin, TX, USA'/>,
@@ -67,7 +69,7 @@ function App() {
     <ExperienceItem id='jss-2025'company='Elsevier Journal of Systems and Software' title='Reviewer' dates='June 2024' location='Cupertino, CA, USA'/>,
     <ExperienceItem id='issta-2024'company='ACM ISSTA 2024' title='Reviewer' dates='August 2023' location='Austin, TX, USA'/>,
     <ExperienceItem id='trel-2022'company='Texas Rocket Engineering Lab, UT Austin' title='RF Systems Lead Engineer' dates='August 2022 - December 2023' location='Austin, TX, USA'/>,
-    <ExperienceItem id='greece-2019'company='Graduate ECE Student Organization, UT Austin' title='Corporate Relations Officer' dates='August 2019 - December 2021' location='Austin, TX, USA'/>,
+    //<ExperienceItem id='greece-2019'company='Graduate ECE Student Organization, UT Austin' title='Corporate Relations Officer' dates='August 2019 - December 2021' location='Austin, TX, USA'/>,
   ]
 
 
@@ -135,11 +137,6 @@ function App() {
                   ))}
                 </Stack>
                 <Stack direction='row' width='auto' sx={{justifyContent: 'flex-start'}}>
-                    <Tooltip title="Email">
-                      <IconButton onClick={()=> window.open('mailto:auditt@utexas.edu', '_blank')}>
-                        <Email sx={{color: '#D5D5D5'}}/>
-                      </IconButton>
-                    </Tooltip>
                     <Tooltip title="Google Scholar">
                       <IconButton onClick={()=> window.open('https://scholar.google.com/citations?user=ABEzcbkAAAAJ&hl=en', '_blank')}>
                         <School sx={{color: '#D5D5D5'}}/>
@@ -227,15 +224,15 @@ function App() {
           <Experiences experience_items={publication_items}  width='auto'/>
         </Stack>
       </Box>
-      <Box ref={good_reads_ref} id='good-reads-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
+      {/* <Box ref={good_reads_ref} id='good-reads-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
         <GoodReads data={GoodReadsData}/>
       </Box>
       <Box ref={workshop_ref} id='workshop-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
         <Workshop data={WorkshopData}/>
       </Box>
       <Box ref={calisthenics_ref} id='calisthenics-page' sx={{width:'100vw', height:'100vh', backgroundColor: 'black'}}>
-        <Workshop data={CalisthenicsData}/>
-      </Box>
+        <Calisthenics data={CalisthenicsData}/>
+      </Box> */}
       {/* <Box ref={life_ref} id='life-page' sx={{width:'100vw', height:'auto', backgroundColor: 'black'}}>
         <Stack sx={{color: '#D5D5D5', paddingTop:'50px', marginLeft: '10px', marginRight: '50px', fontWeight: 'lighter'}}>
           <ComposableMap style={{margin: 0}}>

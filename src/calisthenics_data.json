@@ -2,7 +2,12 @@
     {
         "title": "Back Lever Saga",
         "content": "Coming soon",
-        "banner": "./backlever_saga.jpg"
+        "banner": "./backlever_intro.mp4"
+    },
+    {
+        "title": "Weighted Pullover Saga (+50LBs)",
+        "content": "Coming soon",
+        "banner": "./weighted_bar_pullover.mp4"
     },
     {
         "title": "Iron Cross Saga",
@@ -15,8 +20,8 @@
         "banner": "./planche_saga.jpeg"
     },
     {
-        "title": "Weighted Ring Stand Saga (+90Lbs)",
+        "title": "Weighted Ring Stand Saga (+90LBs)",
         "content": "Coming soon",
-        "banner": "./weighted_ring_stand.jpg"
+        "banner": "./weighted_ring_stand.mp4"
     }
 ]

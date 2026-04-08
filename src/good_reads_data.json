@@ -4,6 +4,7 @@
         "author": "John Grisham",
         "year": "2023",
         "rating": 0,
+        "reading": true,
         "banner": "./the_exchange_after_the_firm.jpg"
     },
     {
@@ -21,6 +22,13 @@
         "banner": "./the_street_lawyer.jpg"
     },
     {
+        "title": "A Time to Kill",
+        "author": "John Grisham",
+        "year": "1989",
+        "rating": 5,
+        "banner": "./time_to_kill.jpg"
+    },
+    {
         "title": "The Firm",
         "author": "John Grisham",
         "year": "1991",
@@ -33,6 +41,13 @@
         "year": "1992",
         "rating": 4,
         "banner": "./the_pelican_brief.jpg"
+    },
+    {
+        "title": "The Lincoln Lawyer",
+        "author": "Michael Connelly",
+        "year": "2005",
+        "rating": 5,
+        "banner": "./lincoln_lawyer.jpg"
     },
     {
         "title": "The Lucifer Effect",
@@ -133,6 +148,13 @@
         "banner": "./adv_sherlock_holmes.jpg"
     },
     {
+        "title": "The Hound of the Ba...",
+        "author": "Arthur Conan Doyle",
+        "year": "1902",
+        "rating": 5,
+        "banner": "./hound_baskervilles.jpg"
+    },
+    {
         "title": "Return of Sherlock...",
         "author": "Arthur Conan Doyle",
         "year": "1905",
@@ -159,5 +181,173 @@
         "year": "2017",
         "rating": 4,
         "banner": "./why_we_sleep.jpg"
+    },
+    {
+        "title": "A Brief History...",
+        "author": "Stephen Hawking",
+        "year": "1988",
+        "rating": 4.5,
+        "banner": "./brief_history_of_time.jpg"
+    },
+    {
+        "title": "Theory of Everything",
+        "author": "Stephen Hawking",
+        "year": "2002",
+        "rating": 4.5,
+        "banner": "./theory_of_everything.jpg"
+    },
+    {
+        "title": "The Demon-Haunted...",
+        "author": "Carl Sagan & Ann Druyan",
+        "year": "1995",
+        "rating": 5,
+        "banner": "./demon_haunted_world.jpg"
+    },
+    {
+        "title": "Convict Conditioning",
+        "author": "Paul Wade",
+        "year": "2011",
+        "rating": 4,
+        "banner": "./convict_conditioning.jpg"
+    },
+    {
+        "title": "How to Stop Worrying...",
+        "author": "Dale Carnegie",
+        "year": "1948",
+        "rating": 4,
+        "banner": "./stop_worrying_start_living.jpg"
+    },
+    {
+        "title": "Nicholas & Alexandra",
+        "author": "Robert K. Massie",
+        "year": "1967",
+        "rating": 4.5,
+        "banner": "./nicholas_and_alexandra.jpg"
+    },
+    {
+        "title": "Glimpses of World...",
+        "author": "Jawaharlal Nehru",
+        "year": "1934",
+        "rating": 4.5,
+        "banner": "./glimpses_world_history.jpg"
+    },
+    {
+        "title": "How Much Land Does...",
+        "author": "Leo Tolstoy",
+        "year": "1886",
+        "rating": 5,
+        "banner": "./how_much_land_does_man_need.jpg"
+    },
+    {
+        "title": "Borderline, Narcissist...",
+        "author": "Elinor Greenberg",
+        "year": "2016",
+        "rating": 5,
+        "banner": "./bpd_npd_schizoid.jpg"
+    },
+    {
+        "title": "Harry Potter Series",
+        "author": "J.K. Rowling",
+        "year": "1997-2007",
+        "rating": 5,
+        "banner": "./harry_potter.jpg"
+    },
+    {
+        "title": "Treasure Island",
+        "author": "Robert Louis Stevenson",
+        "year": "1883",
+        "rating": 3,
+        "banner": "./treasure_island.jpg"
+    },
+    {
+        "title": "Around the World in...",
+        "author": "Jules Verne",
+        "year": "1872",
+        "rating": 3,
+        "banner": "./around_the_world_80_days.jpg"
+    },
+    {
+        "title": "Propaganda",
+        "author": "Edward Bernays",
+        "year": "1928",
+        "rating": 5,
+        "banner": "./propaganda.jpg"
+    },
+    {
+        "title": "Public Relations",
+        "author": "Edward Bernays",
+        "year": "1945",
+        "rating": 5,
+        "banner": "./public_relations.jpg"
+    },
+    {
+        "title": "Pygmalion",
+        "author": "George Bernard Shaw",
+        "year": "1912",
+        "rating": 3.5,
+        "banner": "./pygmalion.jpg"
+    },
+    {
+        "title": "Tintin Series",
+        "author": "Herge",
+        "year": "1929-1972",
+        "rating": 5,
+        "banner": "./tintin.jpg"
+    },
+    {
+        "title": "Quantum",
+        "author": "Manjit Kumar",
+        "year": "2007",
+        "rating": 4,
+        "banner": "./quantum.jpg"
+    },
+    {
+        "title": "My Experiments with...",
+        "author": "M.K. Gandhi",
+        "year": "1929",
+        "rating": 4,
+        "banner": "./experiments_with_truth.jpg"
+    },
+    {
+        "title": "Wings of Fire",
+        "author": "Abdul Kalam & Arun Tiwari",
+        "year": "1999",
+        "rating": 5,
+        "banner": "./wings_of_fire.jpg"
+    },
+    {
+        "title": "The Man Who Knew...",
+        "author": "Robert Kanigel",
+        "year": "1991",
+        "rating": 5,
+        "banner": "./man_who_knew_infinity.jpg"
+    },
+    {
+        "title": "Meditations",
+        "author": "Marcus Aurelius",
+        "year": "180",
+        "rating": 5,
+        "banner": "./meditations.jpg"
+    },
+    {
+        "title": "The Godfather",
+        "author": "Mario Puzo",
+        "year": "1969",
+        "rating": 5,
+        "banner": "./godfather.jpg"
+    },
+    {
+        "title": "Harlequin Tea...",
+        "author": "Agatha Christie",
+        "year": "1997",
+        "rating": 4,
+        "banner": "./harlequin_tea_set.jpg"
+    },
+    {
+        "title": "The Invisible Man",
+        "author": "H.G. Wells",
+        "year": "1897",
+        "rating": 4,
+        "banner": "./invisible_man.jpg"
     }
 ]

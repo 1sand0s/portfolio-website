@@ -1,12 +1,12 @@
 [
     {
         "title": "Is Rust's coverage performance rusty?",
-        "content": "Milos told me that some folks had...",
+        "content": "./rust_coverage_perf.md",
         "banner": "./rusted_rust.png"
     },
     {
         "title": "Plague from the past : Welchia worm",
-        "content": "coming soon!",
+        "content": "./welchia_worm.md",
         "banner": "./welchia_worm.png"
     },
     {

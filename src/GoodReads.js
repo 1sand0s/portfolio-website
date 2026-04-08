@@ -117,21 +117,35 @@ function GoodReads (props) {
                                     {item.year}
                                 </Typography>
                             )}
-                            {item.rating !== undefined && (
-                                <Rating
-                                    value={item.rating}
-                                    readOnly
-                                    precision={0.5}
-                                    sx={{
-                                        '& .MuiRating-iconFilled': {
-                                            color: '#FF968D',
-                                        },
-                                        '& .MuiRating-iconEmpty': {
-                                            color: '#5E5E5E',
-                                        },
-                                        fontSize: '1.2em'
+                            {item.reading ? (
+                                <Typography 
+                                    variant="body2" 
+                                    sx={{ 
+                                        fontSize: '0.9em',
+                                        color: '#FF968D',
+                                        fontWeight: 'bold',
+                                        marginTop: '4px'
                                     }}
-                                />
+                                >
+                                    Currently Reading!
+                                </Typography>
+                            ) : (
+                                item.rating !== undefined && (
+                                    <Rating
+                                        value={item.rating}
+                                        readOnly
+                                        precision={0.5}
+                                        sx={{
+                                            '& .MuiRating-iconFilled': {
+                                                color: '#FF968D',
+                                            },
+                                            '& .MuiRating-iconEmpty': {
+                                                color: '#5E5E5E',
+                                            },
+                                            fontSize: '1.2em'
+                                        }}
+                                    />
+                                )
                             )}
                           </CardContent>
                           {/* <CardActions sx={{ padding: '8px 12px', justifyContent: 'flex-end' }}>
