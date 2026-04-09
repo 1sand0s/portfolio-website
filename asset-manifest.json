@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3473c7a9.css",
-    "main.js": "/static/js/main.788f7d1b.js",
+    "main.css": "/static/css/main.67be2fc7.css",
+    "main.js": "/static/js/main.0602c58c.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
@@ -19,12 +19,12 @@
     "static/media/lejit-fse.png": "/static/media/lejit-fse.4d91bba408e8f3e7c108.png",
     "static/media/estore-ecoop.png": "/static/media/estore-ecoop.579f5d648f30238c0cab.png",
     "index.html": "/index.html",
-    "main.3473c7a9.css.map": "/static/css/main.3473c7a9.css.map",
-    "main.788f7d1b.js.map": "/static/js/main.788f7d1b.js.map",
+    "main.67be2fc7.css.map": "/static/css/main.67be2fc7.css.map",
+    "main.0602c58c.js.map": "/static/js/main.0602c58c.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3473c7a9.css",
-    "static/js/main.788f7d1b.js"
+    "static/css/main.67be2fc7.css",
+    "static/js/main.0602c58c.js"
   ]
 }
