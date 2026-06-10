@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.3b211279.css",
-    "main.js": "/static/js/main.e573e299.js",
+    "main.js": "/static/js/main.2a2729b7.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
-    "static/media/planche.MOV": "/static/media/planche.012b0c3936541f568678.MOV",
-    "static/media/planche-warmups2.mov": "/static/media/planche-warmups2.3d36d1ea6db674e3f7c2.mov",
-    "static/media/pullups.mov": "/static/media/pullups.d59179a30940507a43f5.mov",
+    "static/media/planche.mov": "/static/media/planche.2b5328f7bae85ab392a2.mov",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
+    "static/media/planche-warmups2.mov": "/static/media/planche-warmups2.5a9d6f6604031b0f8776.mov",
     "static/media/lejit-fse-slides.pdf": "/static/media/lejit-fse-slides.89761d1d62279a730262.pdf",
+    "static/media/pullups.mov": "/static/media/pullups.edee148538a015b47406.mov",
     "static/media/exli-fse-slides.pdf": "/static/media/exli-fse-slides.35b74e5f1a620a3e4ce9.pdf",
     "static/media/ogo-icse-slides.pdf": "/static/media/ogo-icse-slides.01fc5150b38e254d51cb.pdf",
     "static/media/weighted_bar_pullover.mp4": "/static/media/weighted_bar_pullover.fc1c366ba4580dcb5a12.mp4",
@@ -28,11 +28,11 @@
     "static/media/estore-ecoop.png": "/static/media/estore-ecoop.579f5d648f30238c0cab.png",
     "index.html": "/index.html",
     "main.3b211279.css.map": "/static/css/main.3b211279.css.map",
-    "main.e573e299.js.map": "/static/js/main.e573e299.js.map",
+    "main.2a2729b7.js.map": "/static/js/main.2a2729b7.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b211279.css",
-    "static/js/main.e573e299.js"
+    "static/js/main.2a2729b7.js"
   ]
 }
