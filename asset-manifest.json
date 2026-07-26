@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b211279.css",
-    "main.js": "/static/js/main.4d1f4712.js",
+    "main.js": "/static/js/main.3b7c7edc.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/planche.mov": "/static/media/planche.2b5328f7bae85ab392a2.mov",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
@@ -28,11 +28,11 @@
     "static/media/estore-ecoop.png": "/static/media/estore-ecoop.579f5d648f30238c0cab.png",
     "index.html": "/index.html",
     "main.3b211279.css.map": "/static/css/main.3b211279.css.map",
-    "main.4d1f4712.js.map": "/static/js/main.4d1f4712.js.map",
+    "main.3b7c7edc.js.map": "/static/js/main.3b7c7edc.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b211279.css",
-    "static/js/main.4d1f4712.js"
+    "static/js/main.3b7c7edc.js"
   ]
 }
