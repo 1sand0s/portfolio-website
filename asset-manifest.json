@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b211279.css",
-    "main.js": "/static/js/main.26b8bc21.js",
+    "main.js": "/static/js/main.a8c40dd1.js",
     "static/js/453.1378131f.chunk.js": "/static/js/453.1378131f.chunk.js",
     "static/media/planche.mov": "/static/media/planche.2b5328f7bae85ab392a2.mov",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
@@ -29,11 +29,11 @@
     "static/media/estore-ecoop.png": "/static/media/estore-ecoop.579f5d648f30238c0cab.png",
     "index.html": "/index.html",
     "main.3b211279.css.map": "/static/css/main.3b211279.css.map",
-    "main.26b8bc21.js.map": "/static/js/main.26b8bc21.js.map",
+    "main.a8c40dd1.js.map": "/static/js/main.a8c40dd1.js.map",
     "453.1378131f.chunk.js.map": "/static/js/453.1378131f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b211279.css",
-    "static/js/main.26b8bc21.js"
+    "static/js/main.a8c40dd1.js"
   ]
 }
