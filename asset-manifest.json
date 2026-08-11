@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b211279.css",
-    "main.js": "/static/js/main.cd4d7dbe.js",
+    "main.js": "/static/js/main.a4a03f73.js",
     "static/js/453.1378131f.chunk.js": "/static/js/453.1378131f.chunk.js",
     "static/media/planche.mov": "/static/media/planche.2b5328f7bae85ab392a2.mov",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
@@ -14,10 +14,10 @@
     "static/media/backlever_intro.mp4": "/static/media/backlever_intro.ed1c9c152744194d4702.mp4",
     "static/media/weighted_ring_stand.mp4": "/static/media/weighted_ring_stand.6b6c44177de2e660d656.mp4",
     "static/media/emsca-iceaa.png": "/static/media/emsca-iceaa.b46ec3a987e9c8e09486.png",
+    "static/media/photo.png": "/static/media/photo.fb5475f2bffd796abb5e.png",
     "static/media/vul-toes.png": "/static/media/vul-toes.576f80a11f740f98b633.png",
     "static/media/vul-cicc.png": "/static/media/vul-cicc.f668e4f19f3535be6599.png",
     "static/media/mgql2.png": "/static/media/mgql2.fadf301ad92e788b3467.png",
-    "static/media/photo.jpg": "/static/media/photo.77147716f59b59f0c261.jpg",
     "static/media/bci-epeps.png": "/static/media/bci-epeps.323a3abe883c6c6e9cd5.png",
     "static/media/plsemantics-icml.png": "/static/media/plsemantics-icml.b74d3f82c35946686b6f.png",
     "static/media/jog-issta.png": "/static/media/jog-issta.2e41aa8f96f3512efc95.png",
@@ -29,11 +29,11 @@
     "static/media/estore-ecoop.png": "/static/media/estore-ecoop.579f5d648f30238c0cab.png",
     "index.html": "/index.html",
     "main.3b211279.css.map": "/static/css/main.3b211279.css.map",
-    "main.cd4d7dbe.js.map": "/static/js/main.cd4d7dbe.js.map",
+    "main.a4a03f73.js.map": "/static/js/main.a4a03f73.js.map",
     "453.1378131f.chunk.js.map": "/static/js/453.1378131f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b211279.css",
-    "static/js/main.cd4d7dbe.js"
+    "static/js/main.a4a03f73.js"
   ]
 }
