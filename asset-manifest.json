@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a79acf57.css",
-    "main.js": "/static/js/main.5b11ebe5.js",
+    "main.js": "/static/js/main.d50f2d35.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/planche.mov": "/static/media/planche.2b5328f7bae85ab392a2.mov",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
@@ -19,6 +19,7 @@
     "static/media/vul-cicc.png": "/static/media/vul-cicc.f668e4f19f3535be6599.png",
     "static/media/mgql-oopsla.png": "/static/media/mgql-oopsla.fadf301ad92e788b3467.png",
     "static/media/predExe-lmpl.png": "/static/media/predExe-lmpl.e7a20b982b0408ee767f.png",
+    "static/media/crocodil-emnlp.png": "/static/media/crocodil-emnlp.d11905647ce46434d48b.png",
     "static/media/bci-epeps.png": "/static/media/bci-epeps.323a3abe883c6c6e9cd5.png",
     "static/media/plsemantics-icml.png": "/static/media/plsemantics-icml.b74d3f82c35946686b6f.png",
     "static/media/jog-issta.png": "/static/media/jog-issta.5ac33f33a7890a44158a.png",
@@ -30,11 +31,11 @@
     "static/media/estore-ecoop.png": "/static/media/estore-ecoop.579f5d648f30238c0cab.png",
     "index.html": "/index.html",
     "main.a79acf57.css.map": "/static/css/main.a79acf57.css.map",
-    "main.5b11ebe5.js.map": "/static/js/main.5b11ebe5.js.map",
+    "main.d50f2d35.js.map": "/static/js/main.d50f2d35.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a79acf57.css",
-    "static/js/main.5b11ebe5.js"
+    "static/js/main.d50f2d35.js"
   ]
 }
