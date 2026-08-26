@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a79acf57.css",
-    "main.js": "/static/js/main.7e00151b.js",
+    "main.js": "/static/js/main.f4b8e8b4.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/planche.mov": "/static/media/planche.2b5328f7bae85ab392a2.mov",
     "static/media/estore-ecoop-slides.pdf": "/static/media/estore-ecoop-slides.7a2e8962ccf41b6778f3.pdf",
@@ -13,7 +13,6 @@
     "static/media/weighted_bar_pullover.mp4": "/static/media/weighted_bar_pullover.fc1c366ba4580dcb5a12.mp4",
     "static/media/backlever_intro.mp4": "/static/media/backlever_intro.ed1c9c152744194d4702.mp4",
     "static/media/weighted_ring_stand.mp4": "/static/media/weighted_ring_stand.6b6c44177de2e660d656.mp4",
-    "static/media/thimmaiah2026mgql.pdf": "/static/media/thimmaiah2026mgql.0ae488590aeb7fa8d3b0.pdf",
     "static/media/emsca-iceaa.png": "/static/media/emsca-iceaa.b46ec3a987e9c8e09486.png",
     "static/media/photo.png": "/static/media/photo.fb5475f2bffd796abb5e.png",
     "static/media/vul-toes.png": "/static/media/vul-toes.576f80a11f740f98b633.png",
@@ -32,11 +31,11 @@
     "static/media/estore-ecoop.png": "/static/media/estore-ecoop.579f5d648f30238c0cab.png",
     "index.html": "/index.html",
     "main.a79acf57.css.map": "/static/css/main.a79acf57.css.map",
-    "main.7e00151b.js.map": "/static/js/main.7e00151b.js.map",
+    "main.f4b8e8b4.js.map": "/static/js/main.f4b8e8b4.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a79acf57.css",
-    "static/js/main.7e00151b.js"
+    "static/js/main.f4b8e8b4.js"
   ]
 }
